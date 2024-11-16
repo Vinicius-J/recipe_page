@@ -1,0 +1,199 @@
+/* Estilos Gerais */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+:root{
+    --padding: 3rem;
+    --margin-botoom: 3rem;
+    --margin-h2:1rem;
+
+    --White:hsl(0, 0%, 100%);
+
+    --Stone--100:hsl(30, 54%, 90%);
+    --Stone--150:hsl(30, 18%, 87%);
+    --Stone--600:hsl(30, 10%, 34%);
+    --Stone--900:hsl(24, 5%, 18%);
+
+    --Brown--800:hsl(14, 45%, 36%);
+
+    --Rose--800:hsl(332, 51%, 32%);
+    --Rose--50:hsl(330, 100%, 98%);
+}
+html{
+    font-size: 62.5%;
+    font-family:"Outfit", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    /* color: hsl(228, 45%, 44%); */
+    color: var(--Brown--800);
+    position: relative;
+}
+body{
+    background-color: var(--Stone--100);
+    width: 100%; min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 4rem; 
+    font-family:"Young Serif", serif;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    color: var(--Stone--900);
+}
+.titles {
+    font-size: 3rem;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: var(--Brown--800);
+    margin-bottom: 2rem;
+}
+
+p,li, th{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--Stone--900);
+}
+li::marker{
+    color: var(--Brown--800);
+}
+.container{
+    width: 70rem;
+    background-color: var(--White);
+    border-radius: 2rem;
+    margin: 8rem 0;
+}
+.content{
+    padding: var(--padding) 0;
+    margin: 0 3rem;
+    overflow: hidden;
+}
+
+.marker{
+   padding: 0.6rem 2rem;
+   margin: 0 3rem;
+}
+
+.itens-list {
+    font-weight: bold;
+}
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+    border-top: 0.1rem solid var(--Stone--150);
+}
+
+table{
+    width: 100%;
+}
+
+.attribution {font-size: 1.1rem; text-align: center;padding-bottom: 5rem;position: relative;} 
+.attribution a::before{
+    position: absolute;
+    top: 1.3rem;
+    left: 50%;
+    content: '';
+    background-color: var(--Brown--800);
+    width: 0;
+    height: 0.1rem;
+    transition: all ease-in-out 250ms;
+}
+.attribution a:hover::before{
+    left: 0;
+    width: 100%;
+}
+
+/* Estilos Únicos */
+
+img.image{
+    width: 100%;
+    height: auto;
+    border-radius: 4rem;
+    padding: var(--padding);
+}
+
+.home{
+    padding-top: 0;
+}
+
+.preparation{
+    margin-left: 3rem;
+    background-color: var(--Rose--50);
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.preparation h2{
+    color: var(--Rose--800);
+    margin-bottom: var(--margin-h2);
+    font-size: 1.8rem;
+}
+
+.preparation ul li{
+    padding: 0.6rem 3rem;
+}
+
+.preparation li::marker{
+    color: var(--Rose--800);
+}
+
+.instructions ul li{
+    list-style: decimal;
+}
+
+.nutrition p{
+    margin-bottom: 2rem;
+}
+
+table{
+    text-align: left;
+    padding: 0 3rem;
+}
+
+table th{
+    padding: 1rem 0;
+    border-bottom: solid 0.1rem var(--Stone--100);
+}
+
+.inform{
+    color: var(--Brown--800);
+    font-weight: bold;
+}
+
+@media (max-width: 375px){
+    body{
+        display: block;
+        min-height: 100vh;
+    }
+   .container{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+   }
+   .content{
+    padding: 0;
+    margin: 0;
+   }
+   img.image{
+    min-width: 37.5rem;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 0;
+   }
+   .home, .preparation, .ingredients, .instructions, .nutrition{
+    margin: 2rem;
+   }
+   .preparation{
+    padding: var(--padding);
+   }
+   .nutrition{
+    padding-bottom: var(--padding);
+   }
+}

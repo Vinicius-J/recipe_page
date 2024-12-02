@@ -1,54 +1,128 @@
-# 05_recipe_page_main
- Landing page
-<!-- Simple Omelette Recipe
+<!-- MODELO PROJETO FINALIZADO -->
+<h1 align="center"> 
+	  🚀✅ 05_recipe_page_main ✅🚀
+</h1>
 
-  An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
-  to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+<!-- ---------------------------------------------------------------------- -->
 
-  Preparation time
+<!-- MODELO MENU DE NAVEGAÇÃO -->
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
 
-  Total: Approximately 10 minutes
-  Preparation: 5 minutes
-  Cooking: 5 minutes
+<!-- ---------------------------------------------------------------------- -->
 
-  Ingredients
 
-  2-3 large eggs
-  Salt, to taste
-  Pepper, to taste
-  1 tablespoon of butter or oil
-  Optional fillings: cheese, diced vegetables, cooked meats, herbs
+<!-- EXEMPLO DE DESCRIÇÃO DE UM PROJETO: -->
+- assets (Pasta que armazena todos os arquivos e sub pastas do projeto)
 
-  Instructions
+- css (Pasta que armaneza todo o estilo da página)
 
-  Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
-  You can add a tablespoon of water or milk for a fluffier texture.
+- design (Pasta que armazena o design do projeto)
 
-  Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
+- img (Pasta que armazena as imagens usadas no projeto)
 
-  Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
-  the eggs evenly coat the surface.
+- fonts (Pasta onde armazena as fontes usadas no projeto)
 
-  Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
-  middle, sprinkle your chosen fillings over one half of the omelette.
+---
 
-  Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
-  fillings. Let it cook for another minute, then slide it onto a plate.
+<!-- ---------------------------------------------------------------------- -->
 
-  Enjoy: Serve hot, with additional salt and pepper if needed.
+<!-- MODELO DESCRIÇÃO SOBRE O PROJETO: -->
+## 💻 Sobre o projeto
 
-  Nutrition
+<!-- EXPLICA O MOTIVO DO PROJETO -->
+`05_recipe_page_main` é um projeto criado ultilizando como referência modelos já prontos do [Frontend Mentor](https://www.frontendmentor.io/).
 
-  The table below shows nutritional values per serving without the additional fillings.
+O objetivo maior com esse projeto era ganhar experiência e propor um desafio a mim mesmo na criação de uma página web do início.
 
-  Calories
-  277kcal
+<!-- LINHA DE DIVISÃO: -->
+---
 
-  Carbs
-  0g
+<!-- ---------------------------------------------------------------------- -->
 
-  Protein
-  20g
+<!-- MODELO FUNCIONALIDADES: -->
+## ⚙️ Funcionalidades
 
-  Fat
-  22g -->
+<!-- EXEMPLO DE FUNCIONALIDADES: -->
+- [x] Design simples e fácil de entender.
+
+- [x] Paletas de cores utilizadas que geram harmonia.
+
+- [x] Primeiro projeto feito sozinho.
+
+- [x] Página totalmente em inglês.
+
+- [x] Responsivo.
+
+---
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- EXEMPLO DE LAYOUT: -->
+## 🎨 Layout
+
+### Widget
+
+<!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
+## Design Desktop
+
+![Mobile1](./design/Frontend%20Mentor%20-%20Recipe%20page.png)<br>
+
+## Design Mobile
+
+![Mobile2](./design/mobile-design.jpg)<br>
+
+---
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- MODELO DE TECNOLOGIAS -->
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Front-End**  
+- `HTML`
+- `CSS`
+
+
+---
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- MODELO DE COMO CONTRIBUIR PARA O PROJETO -->
+## 💪 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+
+---
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- MODELO DE AUTOR-->
+## 🦸 Autor
+
+<a href="https://github.com/Vinicius-J">
+Vinícius Joaquim</a>
+ <br />
+
+---
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- MODELO DE LICENÇA -->
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito por Vinícius Joaquim👋🏽 [Entre em contato!](https://github.com/Vinicius-J)

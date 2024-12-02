@@ -54,7 +54,7 @@ O objetivo maior com esse projeto era ganhar experiência e propor um desafio a 
 
 - [x] Paletas de cores utilizadas que geram harmonia.
 
-- [x] Primeiro projeto feito sozinho.
+- [x] Projeto feito totalmente sozinho.
 
 - [x] Página totalmente em inglês.
 
